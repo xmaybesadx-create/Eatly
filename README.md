@@ -32,6 +32,5 @@
 
 Документація по архітектурі:
 - [Список компонентів](docs/architecture/components.md)  
+- [Повна діаграма](docs/architecture/architecture_v1.png)
 - [Таблиця відповідальностей](docs/architecture/ownership.md)
-- ![Architecture Preview](docs/architecture/architecture_v1.png)
-
