@@ -3,41 +3,18 @@
 ## Опис
 Веб-додаток, що допомагає користувачам планувати своє харчування, рахувати калорії, зберігати щоденник харчування та підбирати рецепти за наявними інгредієнтами.  
 
-
-## Інсталяція та запуск
-
-### Клонування репозиторію
-bash
-git clone <посилання>
-1.  Запуск фронтенду
-cd frontend
-npm install
-npm run dev
-3.  Запуск бекенду
-cd backend
-pip install -r requirements.txt
-uvicorn main:app –reload
-4.  Налаштування БД
-1.  Створіть .env файл у backend/
-2.  Вкажіть змінні оточення:
-DATABASE_URL=postgresql://user:password@localhost:5432/dbname
-JWT_SECRET=ваш_секрет
-alembic upgrade head
  
- 
-#### Структура репозиторію
+### Структура репозиторію
 1.  /frontend — код React застосунку
 2.  /backend — бекенд на Flask
 3.  /docs — документація, макети
 
 
-#### Технології
+### Технології
 1.  Frontend: HTML/CSS, JS
 2.  Backend: Python, Flask, Postman
 3.  Database: SQLAlchemy
 4.  CI/CD: GitHub 
-
-
 
 
 ### Автори
@@ -48,3 +25,13 @@ alembic upgrade head
 5.  Мельничук Анастасія — База даних, рецепти
 6.  Петрівська Зореслава — UI/UX, дизайн, Product owner
 7.  Лагодна Марія — Project manager
+
+
+##№ Architecture
+Проєкт "Здорове харчування" побудований за модульною архітектурою, де Frontend взаємодіє з Backend через HTTP/REST запити, а всі дані користувачів, рецепти та меню зберігаються у реляційній базі даних. Backend відповідає за бізнес-логіку, авторизацію та підрахунок БЖВ/калорій, тоді як Frontend забезпечує відображення сторінок, інтерактивність та адаптивність. Дизайн і макети розроблені окремо дизайнером для узгодження стилю.  
+
+Документація по архітектурі:
+- [Список компонентів](docs/architecture/components.md)  
+- [Таблиця відповідальностей](docs/architecture/ownership.md)
+- ![Architecture Preview](docs/architecture/architecture_v1.png)
+
