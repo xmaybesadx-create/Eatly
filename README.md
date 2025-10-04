@@ -7,7 +7,7 @@
 
 
 #### Технології
-1.  Frontend: HTML/CSS
+1.  Frontend: HTML/CSS, JS
 2.  Backend: Python, Flask, Postman
 3.  Database: SQLAlchemy
 4.  CI/CD: GitHub 
@@ -16,7 +16,7 @@
 
 
 ### Автори
-1.  Стольнікова Альона — HTML/CSS
+1.  Стольнікова Альона — HTML/CSS, JS
 2.  Синицина Оксана — HTML/CSS
 3.  Любаневич Анастасія — Авторизація
 4.  Глушко Марія — Функції
